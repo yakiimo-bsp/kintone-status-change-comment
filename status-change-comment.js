@@ -1,6 +1,6 @@
 /**
  * @fileoverview Automatically posts comments when record status changes in Kintone
- * @author Your Name
+ * @author yakiimo-bsp
  * @license MIT
  */
 
