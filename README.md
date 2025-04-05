@@ -1,22 +1,22 @@
 # Kintone Status Change Comment
 
-A simple JavaScript plugin for Kintone that automatically adds comments when a record's status changes.
+A simple JavaScript code for Kintone that automatically adds comments when a record's status changes.
 
 ## Background
 
-This plugin was created to solve a specific notification challenge when using Kintone's MyPage Plugin:
+This JavaScript code was created to solve a specific notification challenge when using Kintone's MyPage Plugin:
 
 - The MyPage Plugin only sends notifications to users in two cases:
   1. When a new record is created
   2. When someone posts a comment
 - There was no built-in way to notify MyPage users about status changes
-- This plugin bridges this gap by automatically adding comments when status changes, which triggers MyPage notifications
+- This JavaScript code bridges this gap by automatically adding comments when status changes, which triggers MyPage notifications
 
-By using this plugin, MyPage users will receive notifications whenever a record's status changes, helping them stay updated about important changes in their records.
+By using this JavaScript code, MyPage users will receive notifications whenever a record's status changes, helping them stay updated about important changes in their records.
 
-## What This Plugin Does
+## What This JavaScript code Does
 
-This plugin watches for status changes in your Kintone records. When the status changes to specific values (like "Accepted" or "Closed"), it automatically adds a comment to the record.
+This JavaScript code watches for status changes in your Kintone records. When the status changes to specific values (like "Accepted" or "Closed"), it automatically adds a comment to the record.
 
 ## Features
 
@@ -37,7 +37,7 @@ This plugin watches for status changes in your Kintone records. When the status 
 
 ## How to Use
 
-The plugin works automatically after setup. It currently handles these status changes:
+The JavaScript code works automatically after setup. It currently handles these status changes:
 
 - When status changes to "Accepted" → Adds comment "The status has changed to 'Accepted'"
 - When status changes to "Closed" → Adds comment "The status has changed to 'Closed'"
@@ -69,7 +69,7 @@ const STATUS_CONDITIONS = {
 
 ## Error Handling
 
-The plugin:
+The JavaScript code:
 - Logs success messages to console
 - Shows error messages if comment posting fails
 - Continues working even if one comment fails
