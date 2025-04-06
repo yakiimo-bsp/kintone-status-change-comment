@@ -35,12 +35,18 @@ This JavaScript code watches for status changes in your Kintone records. When th
    - Upload the JS file
    - Click "Save"
 
+![JavaScript/CSS Customization Settings](setup-screenshot.png)
+
 ## How to Use
 
 The JavaScript code works automatically after setup. It currently handles these status changes:
 
 - When status changes to "Accepted" → Adds comment "The status has changed to 'Accepted'"
 - When status changes to "Closed" → Adds comment "The status has changed to 'Closed'"
+
+Here's how it looks when a status changes:
+
+![Status Change Comment Example](comment-screenshot.png)
 
 ## How to Add New Status Conditions
 
